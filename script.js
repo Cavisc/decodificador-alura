@@ -88,9 +88,6 @@ function copiar() {
   inputTextoSaida.setSelectionRange(0, 99999)
 
   navigator.clipboard.writeText(inputTextoSaida.value)
-
-  areaTexto.style.visibility = 'hidden'
-  infoResultado.style.visibility = 'visible'
 }
 
 //Botão copiar
