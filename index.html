@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--fav icon-->
+    <link rel="icon" href="#" />
+    <!--reset-->
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <!--Icones-->
+    <link rel="stylesheet" href="assets/fonts/style.css" />
+    <!--Fonte-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Decodificador de Texto</title>
+  </head>
+  <body>
+    <main class="principal">
+      <img
+        src="./assets/logo-alura.png"
+        alt="logo da Alura"
+        class="logo-alura"
+      />
+
+      <section class="criptografia">
+        <form action="">
+          <textarea
+            class="input-texto"
+            placeholder="Digite seu texto"
+            rows="10"
+            cols="22"
+          ></textarea>
+
+          <div class="info">
+            <i class="icon-info-circle"></i>
+            <p class="paragrafo-info">Apenas letras minúsculas e sem acento.</p>
+          </div>
+
+          <div class="botoes">
+            <button class="criptografar" type="button">
+              <i class="icon-lock"></i>Criptografar
+            </button>
+            <button class="descriptografar" type="button">
+              <i class="icon-unlock-alt"></i>
+              Descriptografar
+            </button>
+          </div>
+        </form>
+      </section>
+
+      <section class="resultado">
+        <div class="mensagem-resultado">
+          <i class="icon-user-secret"></i>
+          <div class="info-resultado-texto">
+            <h2 class="titulo-info-resultado">Nenhuma mensagem encontrada</h2>
+            <h3 class="info-resultado">
+              Digite um texto que você deseja <br />
+              criptografar ou descriptografar.
+            </h3>
+          </div>
+        </div>
+
+        <div class="texto-criptografado">
+          <textarea
+            class="texto-resultado"
+            placeholder="Nenhuma mensagem"
+            cols="22"
+            rows="25"
+          ></textarea>
+          <button class="copiar" type="button">
+            <i class="icon-copy1"></i>Copiar
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <img
+        src="assets/perfil.jpg"
+        alt="Foto da pessoa que codou o site."
+        class="minha-foto"
+      />
+      <h3 class="nome">Carlos Coelho</h3>
+      <p class="descricao">
+        <span class="local-descricao">Made in BH</span><br />
+        <em>Esse é o meu primeiro projeto.</em>
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
