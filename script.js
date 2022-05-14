@@ -19,7 +19,7 @@ function criptografar() {
 
 function encriptar(stringEncriptada) {
   let matrizCodigo = [
-    ['a', 'ai'],
+    ['a', 'ap'],
     ['e', 'enter'],
     ['i', 'imes'],
     ['o', 'ober'],
@@ -57,7 +57,7 @@ function descriptografar() {
 //Funções para descriptografar
 function desencriptar(stringDesencriptada) {
   let matrizCodigo = [
-    ['a', 'ai'],
+    ['a', 'ap'],
     ['e', 'enter'],
     ['i', 'imes'],
     ['o', 'ober'],
