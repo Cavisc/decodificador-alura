@@ -16,7 +16,7 @@ body {
 }
 
 .principal {
-  margin: 1.5rem 1rem 8rem;
+  margin: 1.5rem 1rem 6rem;
   /*position: relative;*/
 }
 
@@ -28,7 +28,6 @@ textarea {
 .criptografia {
   width: 100%;
   height: auto;
-  /*margin: 3rem 5rem 4rem 10rem;*/
 }
 
 /*Area do texto*/
@@ -74,12 +73,10 @@ textarea {
 .botoes {
   width: 100%;
   height: 4.3rem;
-  /*margin-bottom: 2rem;*/
   margin-bottom: 4rem;
 }
 
 .criptografar, .descriptografar {
-  /*width: 13rem;*/
   width: 100%;
   height: 80%;
   border-radius: 1.5rem;
@@ -110,13 +107,10 @@ textarea {
 
 /*Sessão do resultado*/
 .resultado {
-  /*position: absolute;
-  top: 0rem;
-  right: 0;
-  float: right;*/
   width: 90%;
   height: 12rem;
   margin: 0 auto;
+  padding-bottom: 1rem;
   background: var(--text-color-light);
   border-radius: 2rem;
 }
@@ -124,7 +118,6 @@ textarea {
 .mensagem-resultado {
   text-align: center;
   margin-top: 8rem;
-  margin-bottom: 8rem;
   padding: 1rem;
 }
 
@@ -153,7 +146,7 @@ textarea {
 .texto-criptografado {
   position: relative;
   width: 90%;
-  bottom: 300px;
+  bottom: 180px;
   height: 12rem;
   margin: 0 auto;
   visibility: hidden;
@@ -220,4 +213,109 @@ footer {
 em {
   font-style: italic;
 }
-*/
+
+@media screen and (min-width: 768px) {
+  .botoes {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .criptografar, .descriptografar {
+    width: 50%;
+  }
+
+  .mensagem-resultado {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {  
+  .principal {
+    margin: 2rem;
+    position: relative;
+  }
+
+  .logo-alura {
+    margin-left: 3rem;
+  }
+  
+  /*Sessão de criptografar*/
+  .criptografia {
+    width: 50%;
+    margin: 3rem 5rem 4rem 8rem;
+  }
+  
+  /*Area do texto*/
+  .input-texto {
+    width: 90%;
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-top: 0;
+  }
+
+  .info {
+    margin-top: 8rem;
+  }
+  
+  /*Botões*/
+  .botoes {
+    margin-bottom: 2rem;
+  }
+  
+  .criptografar, .descriptografar {
+    width: 13rem;
+    margin-right: 1.5rem;
+  }
+  /*^Sessão de criptografar^*/
+  
+  /*Sessão do resultado*/
+  .resultado {
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: right;
+    width: 30%;
+    height: 100%;
+  }
+
+  .mensagem-resultado {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
+  
+  /*Ícone detetive*/
+  .icon-user-secret {
+    font-size: 15rem;
+  }
+  
+  /*Título*/
+  .titulo-info-resultado {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /*Mensagem*/
+  .info-resultado {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+  }
+  
+  /*Área do texto criptografado*/
+  .texto-criptografado {
+    top: -575px;
+    margin: 2rem;
+    height: 70%;
+  }
+
+  .texto-resultado {
+    width: 90%;
+    height: 100%;
+  }
+
+  /*Botão copiar*/
+  .copiar {
+    position: relative;
+    top: -10px;
+    width: 90%;
+  }
+}
