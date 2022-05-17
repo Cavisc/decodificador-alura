@@ -12,8 +12,8 @@ function criptografar() {
   inputTextoSaida.value = textoEncriptado
 
   if (textoEncriptado != '') {
-    areaTexto.style.visibility = 'visible'
-    infoResultado.style.visibility = 'hidden'
+    areaTexto.classList.add('texto-criptografado-aparece')
+    infoResultado.classList.add('mensagem-resultado-desaparece')
   }
 }
 
@@ -49,8 +49,8 @@ function descriptografar() {
   inputTextoSaida.value = textoDesencriptado
 
   if (textoDesencriptado != '') {
-    areaTexto.style.visibility = 'visible'
-    infoResultado.style.visibility = 'hidden'
+    areaTexto.classList.add('texto-criptografado-aparece')
+    infoResultado.classList.add('mensagem-resultado-desaparece')
   }
 }
 
@@ -89,8 +89,8 @@ function copiar() {
 
   navigator.clipboard.writeText(inputTextoSaida.value)
 
-  areaTexto.style.visibility = 'hidden'
-  infoResultado.style.visibility = 'visible'
+  areaTexto.classList.remove('texto-criptografado-aparece')
+  infoResultado.classList.remove('mensagem-resultado-desaparece')
 }
 
 //Botão copiar

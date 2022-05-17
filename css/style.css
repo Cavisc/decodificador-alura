@@ -121,6 +121,10 @@ textarea {
   padding: 1rem;
 }
 
+.mensagem-resultado-desaparece {
+  visibility: hidden;
+}
+
 /*Ícone detetive*/
 .icon-user-secret {
   font-size: 6rem;
@@ -150,6 +154,10 @@ textarea {
   height: 12rem;
   margin: 0 auto;
   visibility: hidden;
+}
+
+.texto-criptografado-aparece {
+  visibility: visible;
 }
 
 /*Texto*/
