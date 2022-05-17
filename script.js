@@ -91,6 +91,8 @@ function copiar() {
 
   areaTexto.classList.remove('texto-criptografado-aparece')
   infoResultado.classList.remove('mensagem-resultado-desaparece')
+
+  inputTextoEntrada.value = ''
 }
 
 //Botão copiar
