@@ -32,7 +32,7 @@ O decodificador foi desenvolvido utilizando as seguintes tecnologias:
    - Clique no botão de codificar a mensagem.
    - Utilize o botão de copiar a mensagem para utiliza-la em outro lugar.
 
-2. **Codificar mensagem:**
+2. **Decodificar mensagem:**
    - Insira uma mensagem codificada na área de texto.
    - Clique no botão de decodificar a mensagem.
    - Utilize o botão de copiar a mensagem para utiliza-la em outro lugar.
