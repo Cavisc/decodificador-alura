@@ -12,7 +12,7 @@ O usuário pode codificar uma mensagem e utiliza-la para brincar com algum amigo
 
 ### 2. Decodificar mensagem
 
-O usuário tammbém pode receber uma mensagem já codificada e decodifica-la para entender o conteúdo dela.
+O usuário também pode receber uma mensagem já codificada e decodifica-la para entender o conteúdo dela.
 
 ### 3. Copiar mensagem
 
