@@ -18,10 +18,6 @@ O usuário tammbém pode receber uma mensagem já codificada e decodifica-la par
 
 Para facilitar a vida do usuário, a aplicação possui um botão que copia o resultado da criptografia.
 
-### 4. Limpar mensagem
-
-A aplicação também possui um botão para limpar a área onde é inserido a mensagem.
-
 ## Tecnologias Utilizadas
 
 O decodificador foi desenvolvido utilizando as seguintes tecnologias:
